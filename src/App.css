@@ -1,38 +1,95 @@
-.App {
+/* APP.JS */
+nav {
+  background-color: #ffca41;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav img:hover {
+  transition: all 0.7s;
+  transform: rotate(360deg);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
 }
+.Appimg {
+  width: 100%;
+}
+/* button {
+  background-color: #ffca41;
+  border-radius: 15px;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App img {
+  width: 100%;
+}
+.App li {
+  background-color: #ffca41;
+  list-style: none;
+  padding: 2%;
+}
+.App a {
   color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+}
+.App p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0%;
 }
 
-.App-link {
-  color: #61dafb;
+/* beerList.jsx */
+.flex {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 10% 10%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottleimg {
+  height: 30vh;
+  padding-right: 10%;
+}
+.bottlename {
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin-bottom: -13%;
+}
+.bottlecol {
+  color: #ffca41;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.creat {
+  font-size: 1.2rem;
+}
+.but {
+  background-color: #ffca41;
+  color: white;
+  text-decoration: none;
+  padding: 2% 13%;
+  border-radius: 15px;
+  font-size: 1.4rem;
+}
+/* details.JSX */
+.debottleimg {
+  height: 50vh;
+  text-align: center;
+  margin-top: 5%;
+}
+.biername {
+  font-size: 2rem;
+}
+.grey {
+  color: #3333;
+}
+.margin {
+  margin: 10%;
+}
+.grey span {
+  margin-left: 145px;
+}
+.debottlecol {
+  color: #ffca41;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: -10%;
 }
