@@ -16,7 +16,7 @@ const Details = () => {
             console.log(json)
             setBier(json)
         })
-    }, [])
+    },[apiId._id])
 
     return(
         <div>
